@@ -1,0 +1,2792 @@
+[
+  {
+    "code": "placa-base",
+    "name": "Placa Base",
+    "category": "Estructuras",
+    "coverage": "preliminar",
+    "source": null,
+    "fields": [
+      {
+        "key": "b",
+        "label": "Ancho de placa",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "n",
+        "label": "Largo de placa",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "t",
+        "label": "Espesor",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "pu",
+        "label": "Carga axial",
+        "unit": "kN",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "mu",
+        "label": "Momento",
+        "unit": "kN·m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fy",
+        "label": "Fluencia del acero",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "p",
+        "label": "Presión de contacto",
+        "unit": "MPa",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "t_req",
+        "label": "Espesor requerido",
+        "unit": "mm",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": []
+  },
+  {
+    "code": "fundaciones",
+    "name": "Fundaciones",
+    "category": "Estructuras",
+    "coverage": "parcial",
+    "source": "Modelo de demostración con datos sintéticos",
+    "fields": [
+      {
+        "key": "b",
+        "label": "Ancho de sección",
+        "unit": "cm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "h",
+        "label": "Altura de sección",
+        "unit": "cm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fc",
+        "label": "Resistencia del hormigón",
+        "unit": "kgf/cm²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fy",
+        "label": "Fluencia del acero",
+        "unit": "kgf/cm²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "rec",
+        "label": "Recubrimiento",
+        "unit": "cm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "m_pos",
+        "label": "Momento positivo",
+        "unit": "tf·m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "m_neg",
+        "label": "Momento negativo",
+        "unit": "tf·m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "as_pos",
+        "label": "Área de acero positivo",
+        "unit": "cm²",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "as_neg",
+        "label": "Área de acero negativo",
+        "unit": "cm²",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "columna",
+    "name": "Columna",
+    "category": "Estructuras",
+    "coverage": "parcial",
+    "source": "Modelo de demostración con datos sintéticos",
+    "fields": [
+      {
+        "key": "np",
+        "label": "Piso evaluado",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "at",
+        "label": "Área tributaria",
+        "unit": "m²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fc",
+        "label": "Resistencia de hormigón",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "pu",
+        "label": "Carga axial",
+        "unit": "kN",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "mx",
+        "label": "Momento X",
+        "unit": "kN·m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "my",
+        "label": "Momento Y",
+        "unit": "kN·m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "lx",
+        "label": "Longitud efectiva X",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "ly",
+        "label": "Longitud efectiva Y",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "bx",
+        "label": "Dimensión X",
+        "unit": "cm",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "by",
+        "label": "Dimensión Y",
+        "unit": "cm",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "as_req",
+        "label": "Área de refuerzo",
+        "unit": "cm²",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "util",
+        "label": "Utilización",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "viga",
+    "name": "Viga",
+    "category": "Estructuras",
+    "coverage": "referencia",
+    "source": "Modelo de demostración con datos sintéticos",
+    "fields": [
+      {
+        "key": "d",
+        "label": "Altura efectiva",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "bw",
+        "label": "Ancho de sección",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fc",
+        "label": "Resistencia del hormigón",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fy",
+        "label": "Fluencia del acero",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "es",
+        "label": "Módulo elástico del acero",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "ecu",
+        "label": "Deformación última del hormigón",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "et",
+        "label": "Deformación de tracción",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "wu",
+        "label": "Carga distribuida última",
+        "unit": "kN/m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Luz",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "phi",
+        "label": "Factor de reducción",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "mu",
+        "label": "Momento último por carga uniforme",
+        "unit": "kN·m",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "mn",
+        "label": "Momento nominal requerido",
+        "unit": "kN·m",
+        "group": "resultado",
+        "automatic": true
+      }
+    ],
+    "modelo": 2,
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "techumbre",
+    "name": "Techumbre",
+    "category": "Estructuras",
+    "coverage": "preliminar",
+    "source": null,
+    "fields": [
+      {
+        "key": "l",
+        "label": "Luz",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "s",
+        "label": "Separación de marcos",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "pend",
+        "label": "Pendiente",
+        "unit": "%",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "g",
+        "label": "Carga permanente",
+        "unit": "kN/m²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "q",
+        "label": "Sobrecarga",
+        "unit": "kN/m²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "viento",
+        "label": "Presión de viento",
+        "unit": "kN/m²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "mu",
+        "label": "Momento de diseño",
+        "unit": "kN·m",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "delta",
+        "label": "Deformación",
+        "unit": "mm",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": []
+  },
+  {
+    "code": "conexiones",
+    "name": "Conexiones",
+    "category": "Estructuras",
+    "coverage": "preliminar",
+    "source": null,
+    "fields": [
+      {
+        "key": "n",
+        "label": "Número de conectores",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "d",
+        "label": "Diámetro de conector",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "t",
+        "label": "Espesor de placa",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "vu",
+        "label": "Corte de diseño",
+        "unit": "kN",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "tu",
+        "label": "Tracción de diseño",
+        "unit": "kN",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "cap",
+        "label": "Capacidad de diseño",
+        "unit": "kN",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "util",
+        "label": "Factor de utilización",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": []
+  },
+  {
+    "code": "losa",
+    "name": "Losa",
+    "category": "Estructuras",
+    "coverage": "parcial",
+    "source": "Modelo de demostración con datos sintéticos",
+    "fields": [
+      {
+        "key": "ll",
+        "label": "Luz larga",
+        "unit": "cm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "ls",
+        "label": "Luz corta",
+        "unit": "cm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "t",
+        "label": "Espesor adoptado",
+        "unit": "cm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fc",
+        "label": "Resistencia del hormigón",
+        "unit": "kgf/cm²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fy",
+        "label": "Fluencia del acero",
+        "unit": "kgf/cm²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "cv",
+        "label": "Carga viva",
+        "unit": "kgf/m²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "cm",
+        "label": "Carga muerta",
+        "unit": "kgf/m²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "mrel",
+        "label": "Relación luz corta a larga",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "cu",
+        "label": "Carga última documentada",
+        "unit": "kgf/m²",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "mx",
+        "label": "Momento por ancho X",
+        "unit": "kN·m/m",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "my",
+        "label": "Momento por ancho Y",
+        "unit": "kN·m/m",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "as_req",
+        "label": "Acero requerido",
+        "unit": "mm²/m",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "pernos",
+    "name": "Pernos",
+    "category": "Estructuras",
+    "coverage": "preliminar",
+    "source": null,
+    "fields": [
+      {
+        "key": "d",
+        "label": "Diámetro nominal",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "n",
+        "label": "Número de pernos",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fu",
+        "label": "Resistencia última",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "vu",
+        "label": "Corte de diseño",
+        "unit": "kN",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "tu",
+        "label": "Tracción de diseño",
+        "unit": "kN",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "util",
+        "label": "Factor de utilización",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": []
+  },
+  {
+    "code": "muro-contencion",
+    "name": "Muro de Contención",
+    "category": "Geotecnia",
+    "coverage": "parcial",
+    "source": "Modelo de demostración con datos sintéticos",
+    "fields": [
+      {
+        "key": "h",
+        "label": "Altura de contención",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "b",
+        "label": "Ancho de la base",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "gamma",
+        "label": "Peso específico del relleno",
+        "unit": "kN/m³",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "phi",
+        "label": "Fricción del suelo",
+        "unit": "°",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "q",
+        "label": "Sobrecarga",
+        "unit": "kPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "kh",
+        "label": "Coeficiente sísmico horizontal",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "empuje",
+        "label": "Empuje horizontal",
+        "unit": "kN/m",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "fs_des",
+        "label": "Factor al deslizamiento",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "fs_vol",
+        "label": "Factor al vuelco",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "sigma",
+        "label": "Tensión máxima de contacto",
+        "unit": "kPa",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "muro-gravedad",
+    "name": "Muro de Gravedad",
+    "category": "Geotecnia",
+    "coverage": "referencia",
+    "source": "Modelo de demostración con datos sintéticos",
+    "fields": [
+      {
+        "key": "hw",
+        "label": "Altura del muro",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "tw",
+        "label": "Espesor del muro",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "hz",
+        "label": "Altura de zapata",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "bt",
+        "label": "Longitud del talón",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "bpunta",
+        "label": "Longitud de la punta",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "gamma",
+        "label": "Peso específico del relleno",
+        "unit": "tf/m³",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "phi",
+        "label": "Fricción del suelo",
+        "unit": "°",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "hsp",
+        "label": "Altura de suelo pasiva",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "ka",
+        "label": "Coeficiente activo",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "kp",
+        "label": "Coeficiente pasivo",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "kae",
+        "label": "Coeficiente activo sísmico",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "bz",
+        "label": "Longitud de zapata",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "hsa",
+        "label": "Altura de suelo activa",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "fs_des",
+        "label": "Factor al deslizamiento",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "fs_vol",
+        "label": "Factor al vuelco",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "consolidacion",
+    "name": "Consolidación",
+    "category": "Geotecnia",
+    "coverage": "preliminar",
+    "source": null,
+    "fields": [
+      {
+        "key": "h",
+        "label": "Espesor de estrato",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "e0",
+        "label": "Índice de vacíos inicial",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "cc",
+        "label": "Índice de compresión",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "cv",
+        "label": "Coeficiente de consolidación",
+        "unit": "m²/año",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "s0",
+        "label": "Tensión efectiva inicial",
+        "unit": "kPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "ds",
+        "label": "Incremento de tensión",
+        "unit": "kPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "asent",
+        "label": "Asentamiento de consolidación",
+        "unit": "mm",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "t90",
+        "label": "Tiempo para 90% de consolidación",
+        "unit": "años",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": []
+  },
+  {
+    "code": "esfuerzos-suelo",
+    "name": "Esfuerzos y deformación del Suelo",
+    "category": "Geotecnia",
+    "coverage": "preliminar",
+    "source": null,
+    "fields": [
+      {
+        "key": "z",
+        "label": "Profundidad de evaluación",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "q",
+        "label": "Carga superficial",
+        "unit": "kPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "b",
+        "label": "Ancho del área cargada",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "e",
+        "label": "Módulo de deformación",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "nu",
+        "label": "Coeficiente de Poisson",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "dsz",
+        "label": "Incremento de esfuerzo vertical",
+        "unit": "kPa",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "asent",
+        "label": "Asentamiento estimado",
+        "unit": "mm",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": []
+  },
+  {
+    "code": "muros-tierra-presa",
+    "name": "Muros de Tierra o Muros Tipo represa o Presa",
+    "category": "Geotecnia",
+    "coverage": "parcial",
+    "source": "Modelo de demostración con datos sintéticos",
+    "fields": [
+      {
+        "key": "h",
+        "label": "Altura del terraplén",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "b",
+        "label": "Ancho de coronamiento",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "talud_arr",
+        "label": "Talud aguas arriba H/V",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "talud_ab",
+        "label": "Talud aguas abajo H/V",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "nivel",
+        "label": "Altura de agua",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "gamma",
+        "label": "Peso específico del relleno",
+        "unit": "kN/m³",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fs",
+        "label": "Factor de seguridad",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "filtracion",
+        "label": "Caudal unitario de filtración",
+        "unit": "m³/s/m",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "muro-rcc",
+    "name": "Muro RCC",
+    "category": "Geotecnia",
+    "coverage": "preliminar",
+    "source": null,
+    "fields": [
+      {
+        "key": "h",
+        "label": "Altura",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "b",
+        "label": "Ancho basal",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "gamma",
+        "label": "Peso específico del RCC",
+        "unit": "kN/m³",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fc",
+        "label": "Resistencia a compresión",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "nivel",
+        "label": "Altura de agua",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fs_des",
+        "label": "Factor al deslizamiento",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "presion",
+        "label": "Presión máxima de contacto",
+        "unit": "kPa",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": []
+  },
+  {
+    "code": "muro-tem",
+    "name": "Muro TEM",
+    "category": "Geotecnia",
+    "coverage": "parcial",
+    "source": "Modelo de demostración con datos sintéticos",
+    "fields": [
+      {
+        "key": "h",
+        "label": "Altura",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "w",
+        "label": "Ancho del tirante",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "sv",
+        "label": "Separación vertical",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "sh",
+        "label": "Separación horizontal",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "phi",
+        "label": "Fricción del relleno",
+        "unit": "°",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "gamma",
+        "label": "Peso específico del relleno",
+        "unit": "kN/m³",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fy",
+        "label": "Fluencia del tirante",
+        "unit": "kN/m²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "vida",
+        "label": "Vida útil",
+        "unit": "años",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "ka",
+        "label": "Coeficiente activo",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "fs_r",
+        "label": "Factor contra rotura",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "fs_e",
+        "label": "Factor contra extracción",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "muro-suelo-reforzado",
+    "name": "Muro de suelo Reforzado",
+    "category": "Geotecnia",
+    "coverage": "parcial",
+    "source": "Modelo de demostración con datos sintéticos",
+    "fields": [
+      {
+        "key": "h",
+        "label": "Altura",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Longitud de refuerzo",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "s",
+        "label": "Separación de capas",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "phi",
+        "label": "Fricción del relleno",
+        "unit": "°",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "gamma",
+        "label": "Peso específico del relleno",
+        "unit": "kN/m³",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "t_adm",
+        "label": "Resistencia admisible del refuerzo",
+        "unit": "kN/m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "t_req",
+        "label": "Demanda del refuerzo",
+        "unit": "kN/m",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "fs",
+        "label": "Factor de seguridad global",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "modelo": 2,
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "canales",
+    "name": "Canales",
+    "category": "Hidráulica",
+    "coverage": "referencia",
+    "source": "Modelo de demostración con datos sintéticos",
+    "fields": [
+      {
+        "key": "q",
+        "label": "Caudal de diseño",
+        "unit": "m³/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "b",
+        "label": "Ancho de solera",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "z",
+        "label": "Talud lateral H/V",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "y",
+        "label": "Tirante adoptado",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "s",
+        "label": "Pendiente",
+        "unit": "m/m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "n",
+        "label": "Coeficiente de rugosidad",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "ancho",
+        "label": "Ancho superficial",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "area",
+        "label": "Área mojada",
+        "unit": "m²",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "perimetro",
+        "label": "Perímetro mojado",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "radio",
+        "label": "Radio hidráulico",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "vel",
+        "label": "Velocidad uniforme",
+        "unit": "m/s",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "cap",
+        "label": "Caudal de la sección",
+        "unit": "m³/s",
+        "group": "resultado",
+        "automatic": true
+      }
+    ],
+    "modelo": 2,
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "tuberias-impulsion",
+    "name": "Tuberías de Impulsión",
+    "category": "Hidráulica",
+    "coverage": "referencia",
+    "source": "Modelo de demostración con datos sintéticos",
+    "fields": [
+      {
+        "key": "q",
+        "label": "Caudal",
+        "unit": "m³/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "rho",
+        "label": "Densidad",
+        "unit": "kg/m³",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "dz",
+        "label": "Altura geométrica",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "hvel",
+        "label": "Altura cinética",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "hper",
+        "label": "Pérdida de carga",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "hpi",
+        "label": "Término de presión inicial",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "hdp",
+        "label": "Diferencia de presión expresada en altura",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "eta",
+        "label": "Rendimiento",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "hmt",
+        "label": "Altura manométrica total",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "pot_cv",
+        "label": "Potencia de la bomba",
+        "unit": "CV",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "pot",
+        "label": "Potencia equivalente",
+        "unit": "kW",
+        "group": "resultado",
+        "automatic": true
+      }
+    ],
+    "modelo": 2,
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "tuberias-gravedad",
+    "name": "Tuberías por gravedad",
+    "category": "Hidráulica",
+    "coverage": "parcial",
+    "source": "Modelo de demostración con datos sintéticos",
+    "fields": [
+      {
+        "key": "q",
+        "label": "Caudal de diseño",
+        "unit": "L/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Longitud de cálculo",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "d",
+        "label": "Diámetro interior",
+        "unit": "pulg",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "chw",
+        "label": "Coeficiente de tubería",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "z0",
+        "label": "Cota de terreno inicial",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "z1",
+        "label": "Cota de terreno final",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "cp0",
+        "label": "Cota piezométrica inicial",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "hf",
+        "label": "Pérdida de carga del tramo",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "vel",
+        "label": "Velocidad a sección llena",
+        "unit": "m/s",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "cp1",
+        "label": "Cota piezométrica final",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "p0",
+        "label": "Altura de presión inicial",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "p1",
+        "label": "Altura de presión final",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": true
+      }
+    ],
+    "modelo": 2,
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "zapatas",
+    "name": "Zapatas aisladas, corridas y combinadas",
+    "category": "Estructuras",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "sigma",
+        "label": "Tensión admisible",
+        "unit": "kgf/cm²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "q",
+        "label": "Sobrecarga",
+        "unit": "kgf/m²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "hf",
+        "label": "Profundidad de fundación",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "pd",
+        "label": "Carga permanente",
+        "unit": "tf",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "pl",
+        "label": "Carga variable",
+        "unit": "tf",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "gm",
+        "label": "Peso específico del terreno",
+        "unit": "tf/m³",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "sn",
+        "label": "Esfuerzo neto",
+        "unit": "tf/m²",
+        "group": "resultado",
+        "automatic": true
+      },
+      {
+        "key": "az",
+        "label": "Área preliminar de apoyo",
+        "unit": "m²",
+        "group": "resultado",
+        "automatic": true
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "losa-cimentacion",
+    "name": "Losa de cimentación",
+    "category": "Estructuras",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "lx",
+        "label": "Longitud X",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "ly",
+        "label": "Longitud Y",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "t",
+        "label": "Espesor",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fc",
+        "label": "Resistencia de hormigón",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "p",
+        "label": "Carga total de servicio",
+        "unit": "kN",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "s",
+        "label": "Presión de contacto",
+        "unit": "kPa",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "asx",
+        "label": "Refuerzo en X",
+        "unit": "cm²/m",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "asy",
+        "label": "Refuerzo en Y",
+        "unit": "cm²/m",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "escaleras",
+    "name": "Escaleras",
+    "category": "Estructuras",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "h",
+        "label": "Contrahuella",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "b",
+        "label": "Huella",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Luz de cálculo",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "t",
+        "label": "Espesor de losa",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fc",
+        "label": "Resistencia de hormigón",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "q",
+        "label": "Carga superficial",
+        "unit": "kN/m²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "mu",
+        "label": "Momento de diseño",
+        "unit": "kN·m/m",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "as",
+        "label": "Área de acero",
+        "unit": "cm²/m",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "verificacion-hormigon",
+    "name": "Verificaciones de hormigón y barras",
+    "category": "Estructuras",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "fc",
+        "label": "Resistencia de hormigón",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fy",
+        "label": "Fluencia de acero",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "d",
+        "label": "Diámetro de barra",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "c",
+        "label": "Recubrimiento",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "ld",
+        "label": "Longitud de desarrollo",
+        "unit": "mm",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "w",
+        "label": "Apertura de fisura",
+        "unit": "mm",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "cerco-tabique",
+    "name": "Cercos y tabiques no portantes",
+    "category": "Estructuras",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "h",
+        "label": "Altura",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Longitud entre apoyos",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "e",
+        "label": "Espesor",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "q",
+        "label": "Carga lateral",
+        "unit": "kPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "m",
+        "label": "Momento por metro",
+        "unit": "kN·m/m",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "vu",
+        "label": "Corte por metro",
+        "unit": "kN/m",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "metrado",
+    "name": "Metrado",
+    "category": "Estructuras",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "n",
+        "label": "Cantidad de elementos",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Largo unitario",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "b",
+        "label": "Ancho unitario",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "h",
+        "label": "Altura unitaria",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "vol",
+        "label": "Volumen registrado",
+        "unit": "m³",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "capacidad-carga",
+    "name": "Capacidad de carga",
+    "category": "Geotecnia",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "b",
+        "label": "Ancho de fundación",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Largo de fundación",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "d",
+        "label": "Profundidad",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "gamma",
+        "label": "Peso específico",
+        "unit": "kN/m³",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "c",
+        "label": "Cohesión",
+        "unit": "kPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "phi",
+        "label": "Fricción interna",
+        "unit": "°",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "qu",
+        "label": "Capacidad última",
+        "unit": "kPa",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "qa",
+        "label": "Capacidad admisible",
+        "unit": "kPa",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "pilotes",
+    "name": "Pilotes",
+    "category": "Geotecnia",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "d",
+        "label": "Diámetro de pilote",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Longitud empotrada",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "gamma",
+        "label": "Peso específico",
+        "unit": "kN/m³",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "c",
+        "label": "Cohesión",
+        "unit": "kPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "phi",
+        "label": "Fricción interna",
+        "unit": "°",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "punta",
+        "label": "Capacidad por punta",
+        "unit": "kN",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "fuste",
+        "label": "Capacidad por fuste",
+        "unit": "kN",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "qa",
+        "label": "Capacidad admisible",
+        "unit": "kN",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "anclajes",
+    "name": "Anclajes geotécnicos",
+    "category": "Geotecnia",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "p",
+        "label": "Carga de diseño",
+        "unit": "kN",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "d",
+        "label": "Diámetro de perforación",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Longitud de bulbo",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "theta",
+        "label": "Inclinación",
+        "unit": "°",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "res",
+        "label": "Resistencia registrada",
+        "unit": "kN",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "fs",
+        "label": "Factor de seguridad",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "erosion",
+    "name": "Erosión hídrica",
+    "category": "Geotecnia",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "r",
+        "label": "Factor de erosividad R",
+        "unit": "según fuente",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "k",
+        "label": "Factor de erodabilidad K",
+        "unit": "según fuente",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "ls",
+        "label": "Factor topográfico LS",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "c",
+        "label": "Factor de cobertura C",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "p",
+        "label": "Factor de prácticas P",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "a",
+        "label": "Pérdida de suelo reportada",
+        "unit": "t/ha/año",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "alcantarillado",
+    "name": "Alcantarillado por gravedad",
+    "category": "Hidráulica",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "q",
+        "label": "Caudal de diseño",
+        "unit": "L/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "d",
+        "label": "Diámetro interior",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "s",
+        "label": "Pendiente",
+        "unit": "m/m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "n",
+        "label": "Coeficiente de rugosidad",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "y_d",
+        "label": "Relación de llenado",
+        "unit": "—",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "vel",
+        "label": "Velocidad",
+        "unit": "m/s",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "cap",
+        "label": "Caudal a sección llena",
+        "unit": "L/s",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "golpe-ariete",
+    "name": "Golpe de ariete",
+    "category": "Hidráulica",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "l",
+        "label": "Longitud de conducción",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "v",
+        "label": "Velocidad inicial",
+        "unit": "m/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "a",
+        "label": "Celeridad de onda",
+        "unit": "m/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "t",
+        "label": "Tiempo de cierre",
+        "unit": "s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "dh",
+        "label": "Sobrepresión expresada en altura",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "sifones",
+    "name": "Sifones",
+    "category": "Hidráulica",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "q",
+        "label": "Caudal de diseño",
+        "unit": "m³/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "d",
+        "label": "Diámetro interior",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Longitud de conducción",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "dz",
+        "label": "Carga estática disponible",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "vel",
+        "label": "Velocidad del flujo",
+        "unit": "m/s",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "hf",
+        "label": "Pérdida de carga total",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "tanques-reservorios",
+    "name": "Tanques y reservorios",
+    "category": "Hidráulica",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "h",
+        "label": "Altura de agua",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "cap",
+        "label": "Capacidad requerida",
+        "unit": "m³",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fc",
+        "label": "Resistencia de hormigón",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "fy",
+        "label": "Fluencia de acero",
+        "unit": "MPa",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "vol",
+        "label": "Capacidad geométrica",
+        "unit": "m³",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "m",
+        "label": "Momento de diseño de pared",
+        "unit": "kN·m/m",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "red-agua",
+    "name": "Red de agua potable",
+    "category": "Hidráulica",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "q",
+        "label": "Caudal de diseño",
+        "unit": "L/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Longitud",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "d",
+        "label": "Diámetro interior",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "c",
+        "label": "Coeficiente de tubería",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "hf",
+        "label": "Pérdida de carga",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "p",
+        "label": "Altura de presión final",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "desarenador",
+    "name": "Desarenador",
+    "category": "Hidráulica",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "q",
+        "label": "Caudal de diseño",
+        "unit": "m³/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "vs",
+        "label": "Velocidad de sedimentación",
+        "unit": "m/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "d",
+        "label": "Diámetro de partícula",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Longitud adoptada",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "b",
+        "label": "Ancho adoptado",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "h",
+        "label": "Profundidad adoptada",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "captacion-tirolesa",
+    "name": "Captación tirolesa",
+    "category": "Hidráulica",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "q",
+        "label": "Caudal de captación",
+        "unit": "m³/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "s",
+        "label": "Pendiente de rejilla",
+        "unit": "m/m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "sep",
+        "label": "Separación libre de barras",
+        "unit": "mm",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "lr",
+        "label": "Longitud de rejilla",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "b",
+        "label": "Ancho de captación",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "galeria-filtrante",
+    "name": "Galería filtrante",
+    "category": "Hidráulica",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "q",
+        "label": "Caudal requerido",
+        "unit": "L/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "k",
+        "label": "Conductividad hidráulica",
+        "unit": "m/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Longitud de galería",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "h",
+        "label": "Carga hidráulica disponible",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "qres",
+        "label": "Caudal estimado",
+        "unit": "L/s",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "zanjas-infiltracion",
+    "name": "Zanjas de infiltración",
+    "category": "Hidráulica",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "a",
+        "label": "Área aportante",
+        "unit": "m²",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "i",
+        "label": "Intensidad de lluvia",
+        "unit": "mm/h",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "k",
+        "label": "Tasa de infiltración",
+        "unit": "mm/h",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "v",
+        "label": "Volumen de diseño",
+        "unit": "m³",
+        "group": "resultado",
+        "automatic": false
+      },
+      {
+        "key": "l",
+        "label": "Longitud adoptada",
+        "unit": "m",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  },
+  {
+    "code": "turbinas",
+    "name": "Turbinas hidráulicas",
+    "category": "Hidráulica",
+    "source": "Modelo de demostración con datos sintéticos",
+    "complementario": true,
+    "coverage": "parcial",
+    "modelo": 2,
+    "fields": [
+      {
+        "key": "q",
+        "label": "Caudal turbinado",
+        "unit": "m³/s",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "h",
+        "label": "Salto neto",
+        "unit": "m",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "eta",
+        "label": "Rendimiento",
+        "unit": "—",
+        "group": "entrada",
+        "automatic": false
+      },
+      {
+        "key": "p",
+        "label": "Potencia estimada",
+        "unit": "kW",
+        "group": "resultado",
+        "automatic": false
+      }
+    ],
+    "fuentes": [
+      {
+        "nombre": "Catálogo de demostración",
+        "ruta": "Modelo interno",
+        "hojas": []
+      }
+    ]
+  }
+]
